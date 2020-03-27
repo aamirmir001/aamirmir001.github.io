@@ -10,7 +10,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("aamirmir001.github.io/QTAU9750.JPG");
+  background-image: url("aamirmir001.github.io/QTAU9750.jpg");
 
   /* Full height */
   height: 100%; 
