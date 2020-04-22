@@ -1,134 +1,44 @@
 <!DOCTYPE html>
 <html>
-<head>
+<title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 5px solid #ddd;
-
-}
-
-th, td {
-  text-align: left;
-  padding: 16px;
-  font-family: cursive;
-  font-size: 15px;
-}
-.header {
-    text-align: center;
-    line-height: 2.5mm;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
+.mySlides {display:none;}
 </style>
-</head>
 <body>
-    <body>
-        <div class="about-section">
-          <h1>Right to Information</h1>
-          <blockquote style="font-size: medium;line-height: 6mm; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align: justify;">The Jammu and Kashmir Right to Information Act, 2009 which has come into effect from the 20th of March 2009 provides for dissemination of information to the resident of the State in the laid manner within the stipulated time so as to deliver speedy justice to them and the information is required to be provided to familiarise the public in general about the mode and manner of the implementation of various Programmes /Schemes in most transparent manner, facilitating to plug up the short comings in the system and check pilferage and malpractices. Under Section (1) of The Jammu and Kashmir Right to Information Act, 2009, the nomination of officers as Public Information Officers (PIOs) in the areas/offices indicated against each has been notified in Legal Metrology Department as under</blockquote>
-        </div>
-    
 
-<table>
-  <tr>
-    <th>S.No</th>
-    <th>Desgination of PIO</th>
-    <th>Area/Office</th>
-    <th>1st Appellate Authority</th>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>2.</td>
-    <td>Deputy Controller(Enf.) Kmr</td>
-    <td>Joint Controller, LM, Kmr</td>
-    <td>Joint Controller, LM, Kmr</td>
-  </tr>
-  <tr>
-    <td>3.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <td>Staff Officer/ Technical Assistant to Controller</td>
-    <td>Controller, Legal Metrology, J&K</td>
-    <td>Controller, Legal Metrology,J&K</td>
-  </tr>
-  
-</table>
+<h2 class="w3-center">Happy Birthday Sana<br> I Love You So Much</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="hb5.jpg" style="width:100%">
+  <img class="mySlides" src="hb6.jpg" style="width:100%">
+  <img class="mySlides" src="hb7.jpg" style="width:100%">
+  <img class="mySlides" src="hb8.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
 
 </body>
 </html>
